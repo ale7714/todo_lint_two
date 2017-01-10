@@ -1,5 +1,3 @@
 ---
 ruby_version: ruby-2.3.0
 bundler_version: 1.13.6
-tests:
-  - bundle exec rspec
