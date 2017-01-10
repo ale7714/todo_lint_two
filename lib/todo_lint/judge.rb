@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module TodoLint
   # Is this todo worth bothering the user about? Judge the todo, and charge it
   # with a crime if necessary

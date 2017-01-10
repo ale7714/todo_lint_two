@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module TodoLint
   # We want to be able to report to users about the todos in their code, and
   # the Reporter is responsible for passing judgment and generating output

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module TodoLint
   # Todo represents a todo/fixme/etc comment within your source code
   class Todo
