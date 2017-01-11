@@ -1,3 +1,5 @@
 ---
 ruby_version: ruby-2.3.0
 bundler_version: 1.13.6
+environment:
+  'CODECLIMATE_REPO_TOKEN': 'bf0a30ff9a7ed52683591941630ab03f248d88ff0cc505f3dbf81268cb17eb6b'
