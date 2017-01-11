@@ -3,8 +3,8 @@ $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 require "todo_lint"
 require "timecop"
 
-require 'codeclimate-test-reporter'
-CodeClimate::TestReporter.start
+require 'simplecov'
+SimpleCov.start
 
 Dir["spec/support/**/*.rb"].each { |f| load f }
 
