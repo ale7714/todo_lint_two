@@ -6,6 +6,8 @@ require "timecop"
 require 'codeclimate-test-reporter'
 CodeClimate::TestReporter.start
 
+Dir["spec/support/**/*.rb"].each { |f| load f }
+
 # Disable colorful output in specs
 # This makes it easier to test and compare strings
 Rainbow.enabled = false
