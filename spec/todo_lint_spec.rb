@@ -4,7 +4,8 @@ require "spec_helper"
 RSpec.describe TodoLint do
   it "has a version number" do
     system "git status"
-    system "git diff"
+    system "git add ."
+    system "git diff --cached"
     expect(TodoLint::VERSION).to be_a String
   end
 end
