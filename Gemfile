@@ -9,8 +9,7 @@ gem "rspec-legacy_formatters"
 gem "rubocop", "~> 0.38"
 gem "timecop", "~> 0.8"
 gem "yardstick", "~> 0.9"
-gem "simplecov"
-gem "codeclimate-test-reporter"
+gem "codeclimate-test-reporter", "0.6.0"
 
 # Specify your gem's dependencies in todo_lint.gemspec
 gemspec
